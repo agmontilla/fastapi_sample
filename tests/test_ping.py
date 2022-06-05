@@ -9,4 +9,4 @@ class TestPing:
     def test_ping_endpoint_is_working(cls, client: TestClient) -> None:
         response = client.get(cls.ENDPOINT)
         assert response.status_code == HTTPStatus.OK
-        assert response.jsosn() == "pong!"
+        assert response.json() == "pong!"
