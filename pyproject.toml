@@ -2,7 +2,7 @@
 name = "fastapi_sample"
 version = "0.1.0"
 description = "Just a fastapi sample with poetry"
-authors = ["Alfonso Montilla <alfonso.montilla@mercadolibre.com>"]
+authors = ["Alfonso Montilla <montilla05alfonso@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
